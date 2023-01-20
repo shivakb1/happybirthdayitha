@@ -1,0 +1,61 @@
+body {
+    
+    background-color: aqua;
+
+}
+
+h2{
+    padding: 1px;
+  
+    color: black;
+
+    
+}
+
+img{
+    width: 30%;
+}
+
+.flex-container {
+    display: flex;
+    
+  }
+
+.flex-container > div {
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+   
+  }
+
+  .flex-container a {
+    text-decoration: none;
+  }
+
+  .flex-full {
+    display: flex;
+    
+  }
+
+.flex-full > div {
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    width: 50%;
+
+   
+  }
+
+  .flex-full > img{
+    background-repeat:repeat-x;
+    width: 10%;
+    height: 10%;
+
+
+  }
+
+.flex-min{
+    display: flex;
+}
